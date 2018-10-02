@@ -37,4 +37,4 @@ function check(array, item) {
                }
              });
 }
-console.log(check());
+console.log(check(cart, item));
