@@ -30,5 +30,5 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
             { itemName: 'eggs', itemPrice: 49 }
            ];
 
-console.log(cart.itemName);
+console.log(getCart);
 cart.every()
