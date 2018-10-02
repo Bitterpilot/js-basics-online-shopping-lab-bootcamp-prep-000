@@ -29,11 +29,16 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
             { itemName: 'eggs', itemPrice: 49 }
            ];
 
-cart.forEach(function(element) {
+if (cart.forEach(function(element) {
                if (element.itemName == item) {
                  return true
                } else {
                  return false
                }
-             });
+             });) {
+    console.log(true);
+  
+} else {
+  console.log(false);
+}
 
