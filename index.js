@@ -1,3 +1,4 @@
+// check also see draft.js
 var cart = [];
 
 function getCart() {
