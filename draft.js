@@ -40,7 +40,7 @@ cart.forEach(function(element) {
              });
 console.log(`--- ${checkArray.includes(true)} ---`);
 if (checkArray.includes(true)) {
-  cart.forEach(function(index, array) {
+  cart.forEach(function(array, index) {
     console.log(index);
     });
 
