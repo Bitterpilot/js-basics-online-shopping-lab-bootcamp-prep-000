@@ -22,6 +22,7 @@
   // console.log(cartString.join(''));
 
 // function removeFromCart
+const index = require('index');
 var item = 'watermelon'
 
 var cart = [{ itemName: 'bananas', itemPrice: 17 },
@@ -30,6 +31,4 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
            ];
 
 console.log(cart.itemName);
-cart.forEach(function(element) {
-  console.log(element);
-});
+cart.every()
