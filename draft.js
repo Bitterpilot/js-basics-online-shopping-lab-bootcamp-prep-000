@@ -45,6 +45,7 @@ if (checkArray.includes(true)) {
       cart.splice(index, 1)
     }
   });
+  console.log(cart);
   return cart
 } else {
   console.log(`That item is not in your cart.`);
