@@ -29,5 +29,5 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
             { itemName: 'eggs', itemPrice: 49 }
            ];
 
-console.log(cart.obj);
+console.log(cart.obj.itemName);
 // cart.every(obj.itemName == item);
