@@ -38,7 +38,7 @@ cart.forEach(function(element) {
                  checkArray.push(false)
                }
              });
-console.log(checkArray.includes(true));
+console.log(`--- ${checkArray.includes(true)} ---`);
 if (checkArray.includes(true)) {
   cart.forEach(function(element) {
     console.log(element);
