@@ -44,8 +44,8 @@ if (checkArray.includes(true)) {
     // `value` is the element itself (equivalent to `array[index]`)
     // `index` will be the index of the element in the array
     // `array` is a reference to the array itself (i.e. `data.items` in this case)
-    
-  }); 
+    console.log(value);
+  });
   return
 } else {
   console.log(`That item is not in your cart.`);
