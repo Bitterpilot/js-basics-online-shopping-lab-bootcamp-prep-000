@@ -37,4 +37,4 @@ function check(item) {
                }
              });
 }
-
+console.log(check(item));
