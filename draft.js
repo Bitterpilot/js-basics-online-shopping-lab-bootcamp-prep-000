@@ -35,10 +35,9 @@ if (cart.forEach(function(element) {
                } else {
                  return false
                }
-             });) {
+             })) {
     console.log(true);
-  
+
 } else {
   console.log(false);
 }
-
