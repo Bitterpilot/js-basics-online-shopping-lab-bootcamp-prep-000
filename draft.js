@@ -30,4 +30,4 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
            ];
 
 console.log(cart);
-cart.every()
+// cart.every()
