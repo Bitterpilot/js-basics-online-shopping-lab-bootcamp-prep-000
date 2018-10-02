@@ -30,17 +30,17 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
            ];
 
 
-var newArray = [];
+var checkArray = [];
 cart.forEach(function(element) {
                if (element.itemName == item) {
-                 newArray.push(true)
+                 checkArray.push(true)
                } else {
-                 newArray.push(false)
+                 checkArray.push(false)
                }
              });
-console.log(newArray.includes(true));
-if (newArray.includes(true)) {
-
+console.log(checkArray.includes(true));
+if (checkArray.includes(true)) {
+  
 } else {
   console.log(`That item is not in your cart.`);
   return `That item is not in your cart.`
