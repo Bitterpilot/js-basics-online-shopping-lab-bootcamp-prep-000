@@ -30,12 +30,6 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
            ];
 
 console.log(cart.itemName);
-switch (cart.itemName == item) {
-       case true:
-         console.log(true);
-         break;
-       case false:
-         console.log(false);
-         break;
-       default:
-}
+cart.forEach(function(element) {
+  console.log(element);
+});
