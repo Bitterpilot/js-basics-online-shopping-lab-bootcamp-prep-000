@@ -42,5 +42,6 @@ console.log(newArray.includes(true));
 if (newArray.includes(true)) {
   
 } else {
+  console.log(`That item is not in your cart.`);
   return `That item is not in your cart.`
 }
