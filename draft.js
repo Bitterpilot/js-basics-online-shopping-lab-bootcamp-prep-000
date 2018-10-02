@@ -40,7 +40,12 @@ cart.forEach(function(element) {
              });
 console.log(`--- ${checkArray.includes(true)} ---`);
 if (checkArray.includes(true)) {
-  console.log(cart.itemName);
+  cart.forEach(function(value, index, array) {
+    // `value` is the element itself (equivalent to `array[index]`)
+    // `index` will be the index of the element in the array
+    // `array` is a reference to the array itself (i.e. `data.items` in this case)
+    
+  }); 
   return
 } else {
   console.log(`That item is not in your cart.`);
