@@ -70,17 +70,17 @@ function removeFromCart(item) {
                    checkArray.push(false)
                  }
                });
-  console.log(`--- ${checkArray.includes(true)} ---`);
+  // console.log(`--- ${checkArray.includes(true)} ---`);
   if (checkArray.includes(true)) {
     cart.forEach(function(value, index, array) {
       if (value.itemName == item) {
         cart.splice(index, 1)
       }
     });
-    console.log(cart);
+    // console.log(cart);
     return cart
   } else {
-    console.log(`That item is not in your cart.`);
+    // console.log(`That item is not in your cart.`);
     return `That item is not in your cart.`
   }
 }
