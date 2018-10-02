@@ -39,3 +39,8 @@ cart.forEach(function(element) {
                }
              });
 console.log(newArray.includes(true));
+if (newArray.includes(true)) {
+  
+} else {
+  return `That item is not in your cart.`
+}
