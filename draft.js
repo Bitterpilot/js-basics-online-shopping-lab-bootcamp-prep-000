@@ -41,7 +41,7 @@ cart.forEach(function(element) {
 console.log(`--- ${checkArray.includes(true)} ---`);
 if (checkArray.includes(true)) {
   cart.forEach(function(array, index) {
-    console.log(index);
+    console.log(array);
     });
 
   return
