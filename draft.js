@@ -28,7 +28,7 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
             { itemName: 'watermelon', itemPrice: 5 },
             { itemName: 'eggs', itemPrice: 49 }
            ];
-function check(item) {
+function check() {
   cart.forEach(function(element) {
                if (element.itemName == item) {
                  return true
@@ -37,4 +37,4 @@ function check(item) {
                }
              });
 }
-console.log(check(item));
+console.log(check());
