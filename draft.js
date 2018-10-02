@@ -46,7 +46,7 @@ if (checkArray.includes(true)) {
     // `array` is a reference to the array itself (i.e. `data.items` in this case)
     console.log(value.itemName);
     if (value.itemName == item) {
-      console.log(true);
+      cart.splice(index, 1)
     }
   });
   return
