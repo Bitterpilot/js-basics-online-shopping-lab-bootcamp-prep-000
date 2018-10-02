@@ -30,5 +30,5 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
            ];
 
 cart.forEach(function(element) {
-             console.log(element.itemName);
+             console.log(element.itemName == item);
            });
