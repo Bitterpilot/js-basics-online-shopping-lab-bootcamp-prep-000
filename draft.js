@@ -32,5 +32,7 @@ var cart = [{ itemName: 'bananas', itemPrice: 17 },
 cart.forEach(function(element) {
              if (element.itemName == item) {
                return true
-             };
+             } else {
+               return false
+             }
            });
