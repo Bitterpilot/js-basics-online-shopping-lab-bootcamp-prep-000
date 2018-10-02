@@ -24,7 +24,7 @@
 // function removeFromCart
 var item = 'watermelon'
 
-var cart = [{ itemName: 'bananas', itemPrice: 17 },
+var cart = [//{ itemName: 'bananas', itemPrice: 17 },
             { itemName: 'watermelon', itemPrice: 5 },
             { itemName: 'eggs', itemPrice: 49 }
            ];
