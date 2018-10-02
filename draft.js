@@ -22,7 +22,7 @@
   // console.log(cartString.join(''));
 
 // function removeFromCart
-const index.js = require('index.js');
+
 var item = 'watermelon'
 
 var cart = [{ itemName: 'bananas', itemPrice: 17 },
