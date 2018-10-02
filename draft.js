@@ -45,6 +45,9 @@ if (checkArray.includes(true)) {
     // `index` will be the index of the element in the array
     // `array` is a reference to the array itself (i.e. `data.items` in this case)
     console.log(value.itemName);
+    if (value.itemName == item) {
+      
+    }
   });
   return
 } else {
