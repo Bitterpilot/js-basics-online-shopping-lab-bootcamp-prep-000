@@ -25,7 +25,7 @@
 var item = 'watermelon'
 
 var cart = [{ itemName: 'bananas', itemPrice: 17 },
-            { itemName: 'watermelon', itemPrice: 5 },
+            // { itemName: 'watermelon', itemPrice: 5 },
             { itemName: 'eggs', itemPrice: 49 }
            ];
 
@@ -43,7 +43,7 @@ if (checkArray.includes(true)) {
   cart.forEach(function(element) {
     console.log(element.itemName);
     });
-  console.log(`true ${cart});
+  console.log(`true ${cart}`);
   return
 } else {
   console.log(`That item is not in your cart.`);
