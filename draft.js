@@ -35,6 +35,6 @@ cart.forEach(function(element) {
                if (element.itemName == item) {
                  newArray.push(true)
                } else {
-                 
+                 newArray.push(false)
                }
              });
