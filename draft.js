@@ -38,4 +38,4 @@ cart.forEach(function(element) {
                  newArray.push(false)
                }
              });
-console.log(newArray);
+console.log(newArray.includes(true));
